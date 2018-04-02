@@ -1,13 +1,23 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+  <el-container>
+    <el-header>{{name}}</el-header>
+    <el-main>
+      <router-view></router-view>
+    </el-main>
+  </el-container>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      name: 'Zhidan System'
+    }
+  },
+  methods: {
+    // TODO: write your methods here.
+  }
 }
 </script>
 
@@ -19,5 +29,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.el-header {
+  text-align: center
+}
+.el-container {
+  width: 400px
 }
 </style>
