@@ -1,4 +1,4 @@
-# zhidan-client
+# Zhidan-client
 
 > A front-end project for our Zhidan System.
 
