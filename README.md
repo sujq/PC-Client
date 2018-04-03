@@ -1,6 +1,6 @@
-# Zhidan-client
+# PC-Client
 
-> A front-end project for our Zhidan System.
+> A front-end project for our Zhidan System running on PC.
 
 ## Build Setup
 
